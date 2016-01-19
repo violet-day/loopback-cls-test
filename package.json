@@ -24,8 +24,8 @@
     "supertest": "^1.1.0"
   },
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "github",
+    "url": "https://github.com/violet-day/loopback-cls-test.git"
   },
   "description": "loopback-cls-test"
 }
