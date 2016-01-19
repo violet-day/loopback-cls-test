@@ -1,2 +1,3 @@
 # loopback-cls-test
-loopback continuation-local-storage test
+
+The project is used to test loopback cls feature
