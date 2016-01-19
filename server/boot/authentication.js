@@ -6,8 +6,8 @@ module.exports = function enableAuthentication(app) {
   remotes.before('**', function (ctx, next) {
     var userId = ctx.req.query.userId;
     if (userId) {
-      var ctx = loopback.getCurrentContext();
-      ctx && ctx.set('userId', userId);
+      var lbCtx = loopback.getCurrentContext();
+      lbCtx && lbCtx.set('userId', userId);
     }
     next();
   });
