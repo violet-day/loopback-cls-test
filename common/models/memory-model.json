@@ -1,0 +1,21 @@
+{
+  "name": "MemoryModel",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "mixins": {
+    "UserId": true
+  },
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

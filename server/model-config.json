@@ -31,5 +31,9 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "MemoryModel": {
+    "dataSource": "db",
+    "public": true
   }
 }
