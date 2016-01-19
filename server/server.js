@@ -16,14 +16,6 @@ app.start = function () {
   });
 };
 
-var cls = require('continuation-local-storage');
-var ns = cls.createNamespace('loopback');
-
-var patchs = ['cls-q'];
-patchs.forEach(function (patch) {
-  require(patch)(ns);
-});
-
 // Bootstrap the application, configure models, datasources and middleware.
 // Sub-apps like REST API are mounted via boot scripts.
 boot(app, __dirname, function (err) {
